@@ -2,7 +2,12 @@
     <head>
         <style>
             * {
-                font:12px/16px "Arial";
+                font:13px/16px "Arial";
+                color: #333;
+            }
+            h1 {
+                font-size:24px;
+                font-weight:bold;
             }
             h3 {
                 margin: 0;
@@ -10,6 +15,10 @@
             }
             #wrapper {
                 display:inline-block;
+            }
+            #info {
+                width:500px;
+                margin: 10px;
             }
             .model {
                 display:inline-block;
@@ -124,6 +133,16 @@
     </head>
     <body>
         <div id="wrapper">
+            <div id="info">
+                <h1>Neutrino.js demo</h1>
+                <p>
+                    Neutrino is an extremely small javascript framework, which lets you do full-scale inheritance and use events.
+                    Neutrino is less than a hundred lines of code, and has everything you may need for a simple project.
+                </p>
+                <p>
+                    For more information, please go to https://github.com/alevkon/neutrino/wiki
+                </p>
+            </div>
             <div id="m1" class="model">
                 <h3>Model #<span class="id"></span></h3>
                 <button class="do">Do something</button>
